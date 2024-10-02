@@ -1,17 +1,18 @@
-import './App.css';
 import React from 'react';
-import Header from './components/Header';
-import Main from './components/MainDiv';
-
+import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Main from './components/MainDiv/MainDiv';
 
 class App extends React.Component {
 
   render() {
-    console.log(this.props.leads);
+    
     return (
       <>
         <Header />
-        <Main />
+        <Main leads={this.props.leads} />
+        <Footer />
       </>
     );
   }

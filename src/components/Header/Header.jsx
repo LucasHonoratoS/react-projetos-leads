@@ -1,6 +1,6 @@
 import './Header.css';
 import React from 'react';
-import reactLogo from '../assets/react.svg';
+import reactLogo from '../../assets/react.svg';
 
 class Header extends React.Component {
     render() {
